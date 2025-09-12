@@ -14,4 +14,19 @@ let num1 = parseInt(str1);
 //console.log('Parse Int:', num1, typeof num1);   
 
 let someNumber  = 99.78
-console.log('String to Number:', someNumber.toString(),String(someNumber) ,typeof someNumber.toString());
+//console.log('String to Number:', someNumber.toString(),String(someNumber) ,typeof someNumber.toString());
+
+
+//********************************Operations********************************************* */
+
+console.log('--- Operations ---');
+
+ console.log("5" + 5 +1); // "55"
+// console.log("5" - 5); // 0
+// console.log("5" * 5); // 25
+
+// console.log("5" / 5); // 1
+
+// console.log("5" + "5"); // "55"
+console.log(5 + "5" - "1"); // 55
+console.log(5 * "5"); // 25
